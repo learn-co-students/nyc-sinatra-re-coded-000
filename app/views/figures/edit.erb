@@ -1,6 +1,7 @@
-<h1> Create New Figure</h1>
+<h1> Edit Figure</h1>
 
-<form action="/figures" method="post">
+<form action="/figures/@firgue.id" method="post">
+<input type="hidden" name="_method" value="PATCH">
 <label >Figure Name :</label><input id="figure_name" type="text" name="figure[name]"></br>
 
 <label >Figure titles :</label>
